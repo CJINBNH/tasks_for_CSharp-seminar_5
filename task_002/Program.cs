@@ -8,7 +8,6 @@ for (int i = 0; i < array.Length; i++)
     array[i] = rand.Next(-10, 11);
 }
 Console.WriteLine('[' + string.Join(", ", array) + ']');
-   // int[] arr = new int [12];
     for (int i = 0; i < array.Length; i++)
     {
         // array[i] = array[i] * (-1);
